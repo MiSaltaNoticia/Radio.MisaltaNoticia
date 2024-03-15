@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Salta Noticia - Donaciones</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <center>
+            <h1>¡Haz una donación!</h1>
+            <p>Ayúdanos a mantener viva la radio</p>
+        </center>
+
+        <div class="informacion-pago">
+            <h2>Información de pago</h2>
+            <br>
+            <h3>Transferencia bancaria en pesos y dolares</h3>
+            <p>Banco: Brubank</p>
+            <p>Moneda: Pesos</p>
+            <p>Alias: misaltanoticia.arg</p>
+            <p>CBU: 1430001713011795740015</p>
+            <p>NRO. CUENTA: 1301179574001</p>
+            <br>
+            <p>Banco: Brubank</p>
+            <p>Moneda: Dolares</p>
+            <p>Alias: misaltanoticia.usd</p>
+            <p>CBU: 1430001714011795740023</p>
+            <p>NRO. CUENTA: 1401179574002</p>
+            <h3>PayPal</h3>
+            <p>Correo electrónico: misaltanoticia@gmail.com</p>
+            <h3>Bitcoin</h3>
+            <p>Dirección: </p>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: "open sans", sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .informacion-pago {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        const metodoPago = document.getElementById("metodo");
+        const informacionPago = document.querySelector(".informacion-pago");
+
+        metodoPago.addEventListener("change", () => {
+            const metodoSeleccionado = metodoPago.value;
+            const seccionesInformacion = Array.from(informacionPago.querySelectorAll("h3"));
+
+            seccionesInformacion.forEach((seccion) => {
+                seccion.classList.add("oculto");
+            });
+
+            document.querySelector(`h3.${metodoSeleccionado}`).classList.remove("oculto");
+        });
+
+    </script>
+</body>
+
+</html>
