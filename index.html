@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="monetag" content="5a387a281c625cf9ee9049d493dbc29a">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script async src="https://cdntechone.com/stattag.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script id="adex">
+        window['__ds3dcv__'] = {
+            clientId: "59e16d62-1b97-4c30-8312-28a2ec1fd0b8",
+            affiliateId: "Wortise - Managed Inventory",
+            advertiserId: "undefined"
+        };
+    </script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+
+    // anchor
+    // TODO: not implemented yet
+
+    // banners
+    // TODO: not implemented yet
+
+    // interstitial
+    // TODO: not implemented yet
+    </script>
+
+    <base href="https://radio.misaltanoticia.com.ar">
+    <script src="https://kit.fontawesome.com/4da1c4a047.js" crossorigin="anonymous"></script>
+    <link href="/Img/Ícono.png" rel="icon">
+    <link href="/Img/Ícono.png" rel="shortcut icon">
+
+    <link rel="stylesheet" type="text/css" href="/Css/bundle.css">
+    <link rel="stylesheet" type="text/css" href="/Css/hody-icons.css">
+    <link rel="stylesheet" type="text/css" href="/Css/style.css">
+    <link rel="stylesheet" type="text/css" href="/Css/funcional_button.css">
+    <link rel="stylesheet" type="text/css" href="/Css/funcional.css">
+    <link rel="stylesheet" type="text/css" href="/Css/font-awesome.min.css">
+
+    <script type="text/javascript" src="/Script/jquery.min.js"></script>
+    <script type="text/javascript" src="/Script/bundle.js"></script>
+    <script type="text/javascript" src="/Script/main.js"></script>
+    <script type="text/javascript" src="/Script/funcional.min.js"></script>
+    <script type="text/javascript" src="/Script/sw.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio - Mi Salta Noticia</title>
+</head>
+
+<body>
+    <script async src="https://cdntechone.com/stattag.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script id="adex">
+        window['__ds3dcv__'] = {
+            clientId: "59e16d62-1b97-4c30-8312-28a2ec1fd0b8",
+            affiliateId: "Wortise - Managed Inventory",
+            advertiserId: "undefined"
+        };
+    </script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+
+    // anchor
+    // TODO: not implemented yet
+
+    // banners
+    // TODO: not implemented yet
+
+    // interstitial
+    // TODO: not implemented yet
+    </script>
+    <div id="wrapper">
+        <section
+            style="height:430px;text-align:center;line-height:360px;background-image: url('Img/Radio.png'); background-position:center">
+            <!-- <a href="">
+                <img 
+                    src="" 
+                    alt="Mi Salta Noticia FM 92.1"
+                    height="100" width="400" class="logo-dark"/>
+            </a> -->
+        </section>
+
+        <section style="padding-top:50px;">
+            <div class="container">
+                <div class="row" style="text-align:center; margin-bottom:110px">
+                    <div style="max-width:600px;margin-left:auto;margin-right:auto;display:block">
+                        <div class="autor-podcast cantidad_nombre-podcast" style="text-align:center">Ir a
+                            <a href="#" style="color:#00b0c7">INICIO</a> |
+                            <a href="#" style="color:#00b0c7">FM</a> |
+                            <a href="//www.misaltanoticia.com.ar" style="color:#00b0c7">Noticias</a> |
+                            <a href="//www.podcasts.misaltanoticia.com.ar" style="color:#00b0c7">Podcasts</a>
+                        </div>
+                        <h1 class="titulo-radio-noticias" style="margin-top:0px">FM 96.1 | Mi Salta Noticia</h1>
+                        <div class="autor-podcast cantidad_nombre-podcast" style="text-align:center">La informacion
+                            que
+                            te mueve</div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align:center;">
+                    <audio autoplay="" controls="" id="elemento-audio">
+                        <source src="https://sc.dattalive.com/8230/stream" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="programacion" class="p-0 b-0">
+            <div class="container">
+                <div class="title text-center">
+                    <h2 class="black-weight"> Programación <br>
+                        <span class="light-text">
+                            <span id="programacion_btn_am"
+                                class="funcional-select-programacion-am funcional-active-bold light-text  active"
+                                onclick="programacion_mostrar(event, this,'am')"> RADIO </span> /
+                            <span id="programacion_btn_fm"
+                                class="funcional-select-programacion-fm funcional-active-bold light-text"
+                                onclick="programacion_mostrar(event, this,'fm')"> PODCASTS </span>
+                        </span>
+                    </h2>
+                </div>
+                <div class="section-content pb-25 pt-25 funcional-programacion-am  active">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs boxed-tabs center-tabs cols-12">
+                                <li class="active">
+                                    <a href="#tab-am-1" data-toggle="tab" aria-expanded="true">
+                                        <span>Lunes</span>
+                                    </a>
+                                </li>
+                                <li><a href="#tab-am-2" data-toggle="tab"><span>Martes</span></a></li>
+                                <li><a href="#tab-am-3" data-toggle="tab"><span>Miércoles</span></a></li>
+                                <li><a href="#tab-am-4" data-toggle="tab"><span>Jueves</span></a></li>
+                                <li><a href="#tab-am-5" data-toggle="tab"><span>Viernes</span></a></li>
+                                <li><a href="#tab-am-6" data-toggle="tab"><span>Sábado</span></a></li>
+                                <li><a href="#tab-am-7" data-toggle="tab"><span>Domingo</span></a></li>
+                            </ul>
+                            <div class="tab-content text-center">
+
+                                <div class="tab-pane fade active in" id="tab-am-1">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">13:00 - 18:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab-am-2">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">18:00 - 22:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-am-3">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">22:00 - 04:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-am-4">
+                                    <ul class="menu-list">
+
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">22:00 - 04:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-am-5">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">22:00 - 04:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+                                        <!--colocar mas horas-->
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-am-6">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">22:00 - 04:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-am-7">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=241">
+                                                        <span class="menu-title">Modo Tarde</span>
+                                                    </a>
+                                                    <span class="menu-value">22:00 - 04:00</span>
+                                                </h4>
+                                                <p class="menu-text">Todas las nuevas musica</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content pb-25 pt-25 funcional-programacion-fm" style="display: none;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav nav-tabs boxed-tabs center-tabs cols-12">
+                                <li class="active">
+                                    <a href="#tab-fm-1" data-toggle="tab" aria-expanded="true">
+                                        <span>Lunes</span>
+                                    </a>
+                                </li>
+                                <li><a href="#tab-fm-2" data-toggle="tab"><span>Martes</span></a></li>
+                                <li><a href="#tab-fm-3" data-toggle="tab"><span>Miércoles</span></a></li>
+                                <li><a href="#tab-fm-4" data-toggle="tab"><span>Jueves</span></a></li>
+                                <li><a href="#tab-fm-5" data-toggle="tab"><span>Viernes</span></a></li>
+                                <li><a href="#tab-fm-6" data-toggle="tab"><span>Sábado</span></a></li>
+                                <li><a href="#tab-fm-7" data-toggle="tab"><span>Domingo</span></a></li>
+                            </ul>
+                            <div class="tab-content text-center">
+                                <div class="tab-pane fade active in" id="tab-fm-1">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-2">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+                                        <!--Coloca mas columna-->
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-3">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-4">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-5">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-6">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="tab-fm-7">
+                                    <ul class="menu-list">
+                                        <li>
+                                            <div class="menu-content">
+                                                <h4>
+                                                    <a href="programa.php?prog_id=308">
+                                                        <span class="menu-title">Al Rededor del Fuego</span>
+                                                    </a>
+                                                    <span class="menu-value">17:00 - 19:00</span>
+                                                </h4>
+                                                <p class="menu-text">Compartimos Historias</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="emergente">
+                <style scoped>
+                    #emergente {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.8);
+                        z-index: 9999;
+                        display: none;
+                    }
+    
+                    #emergente .contenido {
+                        width: 400px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        text-align: center;
+                    }
+    
+                    #emergente h2 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+    
+                    #emergente p {
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+    
+                    #emergente a {
+                        display: inline-block;
+                        padding: 10px 15px;
+                        background-color: #0073b7;
+                        color: #fff;
+                        text-decoration: none;
+                        font-weight: bold;
+                        border-radius: 5px;
+                    }
+    
+                    #emergente a:hover {
+                        background-color: #005797;
+                    }
+    
+                    #emergente #cerrar {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        padding: 5px 10px;
+                        background-color: #ccc;
+                        color: #000;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+    
+                    #emergente #cerrar:hover {
+                        background-color: #aaa;
+                    }
+                </style>
+                <br><br><br><br><br><br><br><br>
+                <div class="contenido" >
+                    <h1>¡Ayúdanos a mantener viva la radio!</h1>
+                    <p>Mi Salta Noticia es un estudio de radio online sin fines de lucro que se dedica a informar y
+                        entretener a
+                        la comunidad.</p>
+                    <p>Tu donación nos ayudará a cubrir los costos de operación, como el alquiler del estudio, el
+                        mantenimiento
+                        del equipo y la producción de contenido.</p>
+                    <a href="/donacion.html">¡Dona ahora!</a>
+                    <button id="cerrar">Cerrar</button>
+                </div>
+                <script>
+                    const emergente = document.getElementById("emergente");
+                    const cerrar = document.getElementById("cerrar");
+    
+                    cerrar.addEventListener("click", () => {
+                        emergente.style.display = "none";
+                    });
+    
+                    // Mostrar la ventana emergente después de 3 segundos
+                    setTimeout(() => {
+                        emergente.style.display = "block";
+                    }, 3000);
+                </script>
+        </section>
+
+        <footer>
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <figure class="footer-logo mb-15">
+                                    <img alt="Mi Salta Noticia" src="Img/Logo.png">
+                                </figure>
+
+                                <div class="textwidget">
+                                    <div>
+                                        Somos una Radio Privada de la Provincia de Salta.<br>
+                                        Iniciamos transmisiones el 19 de febrero de 2019, HOY renovamos la
+                                        mística con vigencia hacia el futuro. © Derechos de Mi Salta Noticia SA 2019
+                                    </div>
+
+                                    <div>
+                                        <br>
+                                        <a href="tel:+543876151832" target="_blank">+54 3876 151832</a>
+                                        <br>
+                                        <a href="#" target="_blank">CP. 4400 - Salta Capital - Argentina. </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h5>Mi Salta Noticia</h5>
+
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li><a href="/Quienes-Somos.html">Quiénes Somos</a></li>
+                                        <li><a href="contacto/index.html">Contacto</a></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: none;" class="col-md-2 col-sm-6">
+                            <div class="widget">
+                                <h5>Empresas AD</h5>
+
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li><a href="/anuncio">Anuncio</a></li>
+                                        <li><a href="/Descuento-Clientes">Descuentos para cliente</a></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h5>Nuestros Medios</h5>
+
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li><a target="_blank" href="//www.revistaelgaucho.com.ar">Revista el
+                                                Gaucho</a>
+                                        </li>
+                                        <li style="display: none;"><a href="#">Descuentos para cliente</a></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h5>Nuestras Paginas</h5>
+
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li><a href="//www.podcasts.misaltanoticia.com.ar">Podcasts</a></li>
+                                        <li><a href="//www.misaltanoticia.com.ar">Noticias</a></li>
+                                        <li><a href="https://play.google.com/store/apps/dev?id=6825663778624800089"
+                                                target="_blank">Aplicaciones</a></li>
+                                        <li><a data-scroll="true" href="#programacion"
+                                                onclick="programacion_mostrar(event, document.getElementById('programacion_btn_am'),'am')"></a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <ul class="social-list text-center">
+                                <li class="social-item-facebook">
+                                    <a href="https://www.facebook.com/MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="social-item-facebook">
+                                    <a href="https://www.instagram.com/MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="social-item-facebook">
+                                    <a href="https://www.twitter.com/MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="social-item-facebook">
+                                    <a href="https://www.youtube.com/@MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="social-item-facebook">
+                                    <a href="https://www.tiktok.com/@MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-tiktok" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="social-item-facebook">
+                                    <a href="https://www.twitch.tv/MiSaltaNoticia" target="_blank">
+                                        <i class="fab fa-twitch" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
